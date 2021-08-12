@@ -7,14 +7,16 @@
         <form>
             <h1>Simple Interest Calculator</h1>
             <br>
-            Amount <input type="number"  id="principal">  <br/>
+            <LABEL for="Amount">Amount: </LABEL>
+            <input type="number"  id="principal" name = "Amount"> 
             <br>
             <div class="slidecontainer">
+            Interest : <span id="result"></span><br>
             <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
             <br>
             No. of Years <input type="number"  id="years">  
             <br>
-            Interest : <span id="result"></span><br>
+            
         </form>
         
 
