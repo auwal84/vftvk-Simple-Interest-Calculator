@@ -6,13 +6,16 @@
     <body>
         <form>
             <h1>Simple Interest Calculator</h1>
-
+            <br>
             Amount <input type="number"  id="principal">  <br/>
-           <div class="slidecontainer">
-           <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+            <br>
+            <div class="slidecontainer">
+            <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+            <br>
+            No. of Years <input type="number"  id="years">  <br/>
+            Interest : <span id="result"></span><br>
         </form>
-        No. of Years <input type="number"  id="years">  <br/>
-        Interest : <span id="result"></span><br>
+        
 
         <button onclick="compute()">Compute</button>
         </div>
